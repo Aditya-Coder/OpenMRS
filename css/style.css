@@ -14,7 +14,7 @@ label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-w
 .row:after, .clearfix:after { clear: both }
 .row, .clearfix { zoom: 1 }
 /* --------------------------------------- GRID Layout ----------------------------------------- */
-* { box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+* { -ms-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 body { margin: 0 auto }
 .grid { margin: 0 auto; max-width: 1200px; width: 100%; }
 /* You can choose the grid 1200 or 1140 or 1024 or 960 as per your requirement */
@@ -493,9 +493,21 @@ ul.accordion>li.active .content { background: white; display: block; border-left
 .insetbox { padding: 15px; background-color: #F5F5F5; text-align: center; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: inset 0 0 15px rgba(0,0,0,0.1); -moz-box-shadow: inset 0 0 15px rgba(0,0,0,0.1); -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,0.1); -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
 .insetbox:hover { color: #fff; background: #222; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
 .insetbox:hover h5 { color: #fff; -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; transition: all 1s ease-in-out; }
-.noshadowbox { padding: 0 15px 15px 15px; background-color: #F5F5F5; text-align: center; border: 1px solid #e9e9e9; border-top: 0px; }
-.noshadowbox h5 { font-size: 20px; line-height: 35px; margin-top: 0px; padding-top: 20px; font-family: OpenSansLight; }
-.bottomlink { margin-bottom: -12px; text-align: right; margin-right: -15px; }
+.noshadowbox { 
+	padding: 0 15px 15px 15px; 
+	background-color: #ffffff; 
+	text-align: center; 
+	border: 1px solid #e9e9e9; 
+	border-top: 0px; 
+}
+.noshadowbox h5 { 
+	font-size: 20px; 
+	line-height: 35px; 
+	margin-top: 0px; 
+	padding-top: 20px; 
+	font-family: OpenSansLight; 
+}
+.bottomlink { margin-bottom: -9px; text-align: right; margin-right: -15px; }
 /* TWITTER 
 ================================================== */
 #ticker { height: 146px; overflow-y: hidden; position: relative; }
@@ -601,7 +613,7 @@ ul.teambox { padding-left: 25px }
 .subtitles { line-height: 27px; font-size: 15px; text-transform: uppercase; }
 .titlehead { margin-top: -50px; margin-bottom: 0px; color: #fff; font-size: 26px; padding-bottom: 25px; font-family: OpenSansBold; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); font-family: OpenSansBold; }
 .rightareaheader { float: right; font-size: 15px; font-family: OpenSansRegular; }
-#skill { list-style: none; font-size: :12px; margin: 37px auto 0; position: relative; line-height: 2em; }
+#skill { list-style: none; font-size: 12px; margin: 37px auto 0; position: relative; line-height: 2em; }
 #skill li { margin-bottom: 25px; height: 35px; background: #eee; }
 #skill li h3 { position: relative; font-size: 13px; color: #fff; margin-left: 10px; font-family: OpenSansRegular; }
 .bar { height: 35px; position: absolute; width: 100%; }
@@ -635,7 +647,7 @@ ul.teambox { padding-left: 25px }
 .shadowunderslider { background: url(../images/sh.png) no-repeat 50% 0; height: 30px; margin-top: -19px; }
 .shadowundertop { background: url(../images/undersharea.png) no-repeat 50% 0; height: 40px; margin-top: 1px; }
 .undermenuarea { background: #0E8FAB url(../images/pat.png) repeat;}
-.undersliderblack { background: #2c2c2c; color: #999; }
+.undersliderblack { background: #5B57A6; color: #fff; }
 .wrapcontentarea { background: #f8f8f8; margin-top: -40px; border-top: medium double #eee; padding: 0px 15px; }
 .introboxfirst { padding: 20px 0px; border-right: 1px solid #111; }
 .introboxmiddle {
@@ -659,7 +671,7 @@ ul.teambox { padding-left: 25px }
 .introboxlast { padding: 20px 0px; border-left: 1px solid #555; }
 .introboxinner {
     width: 95%;
-    padding-left: 20px;
+    padding-left: 20px;	
 }
 .smallrightmargin { margin-right: 10px !Important }
 .simplebox { background: #fff; border: 1px solid #eee; padding: 15px 20px; font-size: 13px; border-left: 1px solid #0E8FAB; line-height: 26px; color: #999; }

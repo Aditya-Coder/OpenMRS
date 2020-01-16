@@ -1,13 +1,22 @@
-.selectnav { display: none; }
-.showmobile {display:none;}
+.selectnav {display: none;}
+.showmobile {display: none;}
 
 @media screen and (max-width: 1024px) {
-.grid {padding:0px;}
+	.grid {padding:0px;}	
 }
 /* small screen */
 @media screen and (max-width: 800px) {
 .js #responsivemenu { display: none; }
-.js .selectnav { display: block;background: #333;color: #fff; font-size:15px;border: 1px solid #333;border-radius: 0px;max-width: 100%;margin-left: -10px;}
+.js .selectnav { 
+	display: block;
+	background: #333;
+	color: #fff; 
+	font-size:15px;
+	border: 1px solid #333;
+	border-radius: 0px;
+	max-width: 100%;
+	margin-left: -10px;
+	}
 nav {float:none;}
 .rightareaheader {float:none;}
 .showmobile {display:block;}

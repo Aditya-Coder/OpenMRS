@@ -1,4 +1,4 @@
-a.prev:hover,a.next:hover { background-color:#daa520;}
+.noshadowbox{background-color: #0E8FAB; color: #fff}a.prev:hover,a.next:hover { background-color:#daa520;}
 .footerstress { border: solid #daa520;border-width: 1px 0 0;clear: both;margin: -9px 0px 17px;}
 .testimonial-name { color:#daa520;}
 .vuzz-pricing-table>div { border-top:#daa520 3px solid;}
@@ -21,3 +21,4 @@ a.expandAll, .progressdefault {background: #daa520;}
 .buttonprice {background: #daa520;color:#fff;border:0px;}
 a.expandAll {background: #daa520;}
 .wrapactiondefault {border-left: #daa520 2px solid;}
+.noshadowbox{background-color: #daa520; color: #fff;}
